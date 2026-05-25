@@ -1,0 +1,24 @@
+﻿@using eCommerce.Service.Dtos.Products;
+@model List<ProductDto>
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+
+                    <h1 class="card-title">@item.Name</h1>
+                    <h2 class="card-subtitle mb-2 text-muted">Price:  @item.Price</h2>
+                    <div class="product-info" style="display:none">
+                        <p>Description: @item.Description</p>
+                        <p>Count: @item.Count</p>
+                    </div>
+                    <a href="#!" class="btn btn-outline-primary" style="font-size: 25px;">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
