@@ -1,6 +1,6 @@
 # eCommerce
 
-A full-stack eCommerce web application built with **ASP.NET Core MVC (.NET 6)** following clean N-tier architecture with Entity Framework Core, AutoMapper, and SQL Server.
+A full-stack eCommerce web application built with **ASP.NET Core MVC** following clean N-tier architecture with Entity Framework Core, AutoMapper, and SQL Server.
 
 ---
 
